@@ -1,0 +1,33 @@
+    <div class="meal-card">
+      <section>
+        <img src="$IMAGE_URL" alt="$TITLE" />
+        <div class="meal-info">
+            <h2><a href="$SOURCE_URL">$TITLE</a></h2>
+          <div>
+            <p>Calories: $CALORIES</p>
+            <p>Protein: $PROTEIN</p>
+            <p>Carbs: $CARBS</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Summary</h3>
+        <p class="summary">$SUMMARY</p>
+      </section>
+
+      <section>
+        <h3>Ingredients</h3>
+        <div class="ingredients">
+          <h4>Used:</h4>
+          <ul class="ingredient-list">
+$USED_INGREDIENTS
+          </ul>
+          <h4>Missing:</h4>
+          <ul class="ingredient-list">
+$MISSED_INGREDIENTS
+          </ul>
+        </div>
+      </section>
+    </div>
+$RECIPES
